@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.maincontainer{
+    height: 500px;
+    width:90%;
+    margin: auto;
+    background:linear-gradient(blue,pink)
+}
+.formdetails{
+    margin-top: 50px , 50px;
+    margin-left: 300px;
+    background-image: url(../../assets/bg2.jpg);
+    height: 290px; 
+    width: 200px; 
+    padding: 90px; 
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.addreview-butons{
+    height: 35px;
+    width: 90px;
+    color: white;
+    background: linear-gradient(100deg, rgb(204, 64, 246),rgb(87, 14, 197));
+    margin-left: 50px;
+    border-radius: 4px;
+    margin-top:  -100px;
+    
+}
+.input1{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    
+}
+.input2{
+    width: 200px;
+    height: 70px;
+    border-radius: 3px;
+    
+}
+.input3{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    
+}
+
+.input2::placeholder{
+    margin-top: -10px;
+
+}
